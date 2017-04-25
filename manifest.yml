@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: TextToSpeech170425
+  host: TextToSpeech170425
+  disk_quota: 1024M
+  services:
+  - Text to Speech-72
